@@ -103,7 +103,6 @@
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="NotepadHelper.cs" />
-    <Compile Include="OptionalOut.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PythonEditor.cs">
