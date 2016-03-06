@@ -1,0 +1,11 @@
+RULE -> char+ / REPLACEMENT / ENVIRONMENT (/ ENVIRONMENT)*
+      | / REPLACEMENT / ENVIRONMENT (/ ENVIRONMENT)*
+      | char+ / / ENVIRONMENT (/ ENVIRONMENT)*
+REPLACEMENT -> \
+             | char+
+ENIRONMENT -> ENVIRONMENTPART* _ ENVIRONMENTPART*
+ENVIRONMENTPART -> #
+                 | >
+                 | ( ENVIRONMENTPART )
+                 | [ char+ ]
+                 | char
