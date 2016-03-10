@@ -1,5 +1,3 @@
-http://www.incatena.org/viewtopic.php?f=5&t=42227
-
 Menu -> Edit (Not that urgent, as most users would probably use the keyboard shortcuts)
 (A(B)C) is currently interpreted as (A(B)(C)) (Not _really_ a bug, but not exactly wanted)
 Backtracking - probably not implementable
