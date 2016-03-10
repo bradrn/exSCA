@@ -1,7 +1,6 @@
-﻿http://www.incatena.org/viewtopic.php?f=5&t=42227
+http://www.incatena.org/viewtopic.php?f=5&t=42227
 
 Menu -> Edit (Not that urgent, as most users would probably use the keyboard shortcuts)
-Get syllabification to do cats within cats (e.g. X=CV would be parsed as [CV], not [ptkbdgaeiou])
 (A(B)C) is currently interpreted as (A(B)(C)) (Not _really_ a bug, but not exactly wanted)
 Backtracking - probably not implementable
 
@@ -11,3 +10,4 @@ Backtracking - probably not implementable
 Syllabification - DONE!
 Categories as part of other categories - DONE!
 Menu -> Tools - DONE!
+Get syllabification to do cats within cats (e.g. X=CV would be parsed as [CV], not [ptkbdgaeiou])
