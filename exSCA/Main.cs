@@ -39,7 +39,6 @@ namespace exSCA
         private void Categories_TextChanged(object sender, TextChangedEventArgs e)
         {
             e.ChangedRange.ClearStyle();
-            e.ChangedRange.SetStyle(UnderscoreStyle, @"\s");
             MatchCollection mc = Regex.Matches(Categories.Text, "^(.)=(.+)$", RegexOptions.Multiline);
             foreach (Match m in mc)
             {
