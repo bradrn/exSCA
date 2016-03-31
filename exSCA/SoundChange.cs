@@ -62,7 +62,7 @@ namespace exSCA
                 {
                     if (_state == "add" && c == '#')        // See fourth line after "case '_':"
                     {
-                        _state = ""; wordIndex++; startIndex++;
+                        _state = "";
                     }
                     switch (state)
                     {

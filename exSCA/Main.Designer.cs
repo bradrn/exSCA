@@ -83,6 +83,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
@@ -90,7 +91,8 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(862, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(16, 5, 0, 5);
+            this.menuStrip1.Size = new System.Drawing.Size(2299, 58);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -101,14 +103,14 @@
             this.saveToolStripMenuItem,
             this.saveAsToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(75, 48);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(415, 46);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -116,7 +118,7 @@
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(415, 46);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -125,7 +127,7 @@
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             this.saveAsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(415, 46);
             this.saveAsToolStripMenuItem.Text = "Save As";
             // 
             // editToolStripMenuItem
@@ -134,19 +136,19 @@
             this.copyToolStripMenuItem,
             this.pasteToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(80, 48);
             this.editToolStripMenuItem.Text = "Edit";
             // 
             // copyToolStripMenuItem
             // 
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(203, 46);
             this.copyToolStripMenuItem.Text = "Copy";
             // 
             // pasteToolStripMenuItem
             // 
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(203, 46);
             this.pasteToolStripMenuItem.Text = "Paste";
             // 
             // toolsToolStripMenuItem
@@ -155,14 +157,14 @@
             this.pythonEditorToolStripMenuItem,
             this.declinerToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(99, 48);
             this.toolsToolStripMenuItem.Text = "Tools";
             // 
             // pythonEditorToolStripMenuItem
             // 
             this.pythonEditorToolStripMenuItem.Name = "pythonEditorToolStripMenuItem";
             this.pythonEditorToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.pythonEditorToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
+            this.pythonEditorToolStripMenuItem.Size = new System.Drawing.Size(498, 46);
             this.pythonEditorToolStripMenuItem.Text = "Python Editor";
             this.pythonEditorToolStripMenuItem.Click += new System.EventHandler(this.pythonEditorToolStripMenuItem_Click);
             // 
@@ -170,7 +172,7 @@
             // 
             this.declinerToolStripMenuItem.Name = "declinerToolStripMenuItem";
             this.declinerToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.J)));
-            this.declinerToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
+            this.declinerToolStripMenuItem.Size = new System.Drawing.Size(498, 46);
             this.declinerToolStripMenuItem.Text = "Decliner/Conjugator";
             this.declinerToolStripMenuItem.Click += new System.EventHandler(this.declinerToolStripMenuItem_Click);
             // 
@@ -179,13 +181,13 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(92, 48);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(215, 46);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -205,22 +207,24 @@
         '\''};
             this.Categories.AutoIndent = false;
             this.Categories.AutoIndentCharsPatterns = "";
-            this.Categories.AutoScrollMinSize = new System.Drawing.Size(0, 14);
+            this.Categories.AutoScrollMinSize = new System.Drawing.Size(0, 36);
             this.Categories.BackBrush = null;
             this.Categories.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Categories.CharHeight = 14;
-            this.Categories.CharWidth = 8;
+            this.Categories.CharHeight = 36;
+            this.Categories.CharWidth = 20;
             this.Categories.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Categories.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.Categories.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Categories.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.Categories.IsReplaceMode = false;
-            this.Categories.Location = new System.Drawing.Point(13, 13);
+            this.Categories.Location = new System.Drawing.Point(35, 31);
+            this.Categories.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Categories.Name = "Categories";
             this.Categories.Paddings = new System.Windows.Forms.Padding(0);
             this.Categories.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.Categories.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("Categories.ServiceColors")));
             this.Categories.ShowLineNumbers = false;
-            this.Categories.Size = new System.Drawing.Size(162, 223);
+            this.Categories.Size = new System.Drawing.Size(433, 532);
             this.Categories.TabIndex = 1;
             this.Categories.WordWrap = true;
             this.Categories.Zoom = 100;
@@ -242,23 +246,23 @@
         '\''};
             this.Rewrite.AutoIndent = false;
             this.Rewrite.AutoIndentCharsPatterns = "";
-            this.Rewrite.AutoScrollMinSize = new System.Drawing.Size(0, 14);
+            this.Rewrite.AutoScrollMinSize = new System.Drawing.Size(0, 36);
             this.Rewrite.BackBrush = null;
             this.Rewrite.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Rewrite.CharHeight = 14;
-            this.Rewrite.CharWidth = 8;
+            this.Rewrite.CharHeight = 36;
+            this.Rewrite.CharWidth = 20;
             this.Rewrite.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Rewrite.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.Rewrite.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Rewrite.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.Rewrite.IsReplaceMode = false;
-            this.Rewrite.Location = new System.Drawing.Point(13, 242);
+            this.Rewrite.Location = new System.Drawing.Point(35, 577);
+            this.Rewrite.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Rewrite.Name = "Rewrite";
             this.Rewrite.Paddings = new System.Windows.Forms.Padding(0);
             this.Rewrite.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.Rewrite.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("Rewrite.ServiceColors")));
             this.Rewrite.ShowLineNumbers = false;
-            this.Rewrite.Size = new System.Drawing.Size(162, 224);
+            this.Rewrite.Size = new System.Drawing.Size(433, 533);
             this.Rewrite.TabIndex = 2;
             this.Rewrite.WordWrap = true;
             this.Rewrite.Zoom = 100;
@@ -277,15 +281,14 @@
         '\"',
         '\'',
         '\''};
-            this.AdvancedRewrite.AutoScrollMinSize = new System.Drawing.Size(0, 14);
+            this.AdvancedRewrite.AutoScrollMinSize = new System.Drawing.Size(0, 36);
             this.AdvancedRewrite.BackBrush = null;
             this.AdvancedRewrite.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.AdvancedRewrite.CharHeight = 14;
-            this.AdvancedRewrite.CharWidth = 8;
+            this.AdvancedRewrite.CharHeight = 36;
+            this.AdvancedRewrite.CharWidth = 20;
             this.AdvancedRewrite.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.AdvancedRewrite.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.AdvancedRewrite.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AdvancedRewrite.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.AdvancedRewrite.IsReplaceMode = false;
             this.AdvancedRewrite.Location = new System.Drawing.Point(3, 3);
             this.AdvancedRewrite.Name = "AdvancedRewrite";
@@ -312,24 +315,24 @@
         '\"',
         '\'',
         '\''};
-            this.Input.AutoScrollMinSize = new System.Drawing.Size(0, 14);
+            this.Input.AutoScrollMinSize = new System.Drawing.Size(0, 36);
             this.Input.BackBrush = null;
             this.Input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Input.CharHeight = 14;
-            this.Input.CharWidth = 8;
+            this.Input.CharHeight = 36;
+            this.Input.CharWidth = 20;
             this.Input.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Input.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.Input.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Input.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.Input.IsReplaceMode = false;
-            this.Input.Location = new System.Drawing.Point(349, 13);
+            this.Input.Location = new System.Drawing.Point(933, 31);
+            this.Input.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Input.Name = "Input";
             this.Input.Paddings = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.SetRowSpan(this.Input, 2);
             this.Input.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.Input.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("Input.ServiceColors")));
             this.Input.ShowLineNumbers = false;
-            this.Input.Size = new System.Drawing.Size(162, 453);
+            this.Input.Size = new System.Drawing.Size(433, 1079);
             this.Input.TabIndex = 4;
             this.Input.WordWrap = true;
             this.Input.Zoom = 100;
@@ -337,9 +340,10 @@
             // ApplyButton
             // 
             this.ApplyButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ApplyButton.Location = new System.Drawing.Point(3, 3);
+            this.ApplyButton.Location = new System.Drawing.Point(8, 7);
+            this.ApplyButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.ApplyButton.Name = "ApplyButton";
-            this.ApplyButton.Size = new System.Drawing.Size(162, 23);
+            this.ApplyButton.Size = new System.Drawing.Size(433, 55);
             this.ApplyButton.TabIndex = 6;
             this.ApplyButton.Text = "Apply";
             this.ApplyButton.UseVisualStyleBackColor = true;
@@ -351,9 +355,11 @@
             this.groupBox1.Controls.Add(this.ArrowedOutput);
             this.groupBox1.Controls.Add(this.PlainOutput);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Location = new System.Drawing.Point(3, 32);
+            this.groupBox1.Location = new System.Drawing.Point(8, 76);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(162, 101);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.groupBox1.Size = new System.Drawing.Size(433, 241);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ouput Format";
@@ -361,9 +367,10 @@
             // BracketedOutput
             // 
             this.BracketedOutput.AutoSize = true;
-            this.BracketedOutput.Location = new System.Drawing.Point(7, 66);
+            this.BracketedOutput.Location = new System.Drawing.Point(19, 157);
+            this.BracketedOutput.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.BracketedOutput.Name = "BracketedOutput";
-            this.BracketedOutput.Size = new System.Drawing.Size(87, 17);
+            this.BracketedOutput.Size = new System.Drawing.Size(218, 36);
             this.BracketedOutput.TabIndex = 2;
             this.BracketedOutput.Text = "output [input]";
             this.BracketedOutput.UseVisualStyleBackColor = true;
@@ -371,9 +378,10 @@
             // ArrowedOutput
             // 
             this.ArrowedOutput.AutoSize = true;
-            this.ArrowedOutput.Location = new System.Drawing.Point(7, 43);
+            this.ArrowedOutput.Location = new System.Drawing.Point(19, 103);
+            this.ArrowedOutput.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.ArrowedOutput.Name = "ArrowedOutput";
-            this.ArrowedOutput.Size = new System.Drawing.Size(95, 17);
+            this.ArrowedOutput.Size = new System.Drawing.Size(237, 36);
             this.ArrowedOutput.TabIndex = 1;
             this.ArrowedOutput.Text = "input → output";
             this.ArrowedOutput.UseVisualStyleBackColor = true;
@@ -382,9 +390,10 @@
             // 
             this.PlainOutput.AutoSize = true;
             this.PlainOutput.Checked = true;
-            this.PlainOutput.Location = new System.Drawing.Point(7, 20);
+            this.PlainOutput.Location = new System.Drawing.Point(19, 48);
+            this.PlainOutput.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.PlainOutput.Name = "PlainOutput";
-            this.PlainOutput.Size = new System.Drawing.Size(55, 17);
+            this.PlainOutput.Size = new System.Drawing.Size(132, 36);
             this.PlainOutput.TabIndex = 0;
             this.PlainOutput.TabStop = true;
             this.PlainOutput.Text = "output";
@@ -405,13 +414,14 @@
             this.tableLayoutPanel1.Controls.Add(this.Rewrite, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.panel2, 4, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 24);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 58);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(10);
+            this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(27, 24, 27, 24);
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(862, 479);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(2299, 1141);
             this.tableLayoutPanel1.TabIndex = 8;
             // 
             // tableLayoutPanel2
@@ -423,8 +433,8 @@
             this.tableLayoutPanel2.Controls.Add(this.ApplyButton, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel1, 0, 2);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(514, 13);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(1374, 31);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0, 7, 0, 7);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 4;
             this.tableLayoutPanel1.SetRowSpan(this.tableLayoutPanel2, 2);
@@ -432,7 +442,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(168, 453);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(449, 1079);
             this.tableLayoutPanel2.TabIndex = 5;
             // 
             // groupBox2
@@ -442,11 +452,11 @@
             this.groupBox2.Controls.Add(this.SyllabificationBox);
             this.groupBox2.Controls.Add(this.SyllabifyHelpButton);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(0, 393);
+            this.groupBox2.Location = new System.Drawing.Point(0, 938);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 3);
-            this.groupBox2.Size = new System.Drawing.Size(168, 60);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(8, 5, 8, 7);
+            this.groupBox2.Size = new System.Drawing.Size(449, 141);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Syllabification";
@@ -464,17 +474,17 @@
         '\"',
         '\'',
         '\''};
-            this.SyllabificationBox.AutoScrollMinSize = new System.Drawing.Size(386, 14);
+            this.SyllabificationBox.AutoScrollMinSize = new System.Drawing.Size(962, 36);
             this.SyllabificationBox.BackBrush = null;
             this.SyllabificationBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.SyllabificationBox.CharHeight = 14;
-            this.SyllabificationBox.CharWidth = 8;
+            this.SyllabificationBox.CharHeight = 36;
+            this.SyllabificationBox.CharWidth = 20;
             this.SyllabificationBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.SyllabificationBox.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.SyllabificationBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.SyllabificationBox.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.SyllabificationBox.IsReplaceMode = false;
-            this.SyllabificationBox.Location = new System.Drawing.Point(3, 15);
+            this.SyllabificationBox.Location = new System.Drawing.Point(8, 36);
+            this.SyllabificationBox.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.SyllabificationBox.Multiline = false;
             this.SyllabificationBox.Name = "SyllabificationBox";
             this.SyllabificationBox.Paddings = new System.Windows.Forms.Padding(0);
@@ -482,7 +492,7 @@
             this.SyllabificationBox.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("SyllabificationBox.ServiceColors")));
             this.SyllabificationBox.ShowLineNumbers = false;
             this.SyllabificationBox.ShowScrollBars = false;
-            this.SyllabificationBox.Size = new System.Drawing.Size(162, 19);
+            this.SyllabificationBox.Size = new System.Drawing.Size(433, 43);
             this.SyllabificationBox.TabIndex = 18;
             this.SyllabificationBox.Text = "(CC?)?V(?((?=CC$))CC|(?((?=CC))C|(?((?=C$))C|)))";
             this.SyllabificationBox.Zoom = 100;
@@ -492,9 +502,10 @@
             // 
             this.SyllabifyHelpButton.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.SyllabifyHelpButton.Enabled = false;
-            this.SyllabifyHelpButton.Location = new System.Drawing.Point(3, 34);
+            this.SyllabifyHelpButton.Location = new System.Drawing.Point(8, 79);
+            this.SyllabifyHelpButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.SyllabifyHelpButton.Name = "SyllabifyHelpButton";
-            this.SyllabifyHelpButton.Size = new System.Drawing.Size(162, 23);
+            this.SyllabifyHelpButton.Size = new System.Drawing.Size(433, 55);
             this.SyllabifyHelpButton.TabIndex = 19;
             this.SyllabifyHelpButton.Text = "Regex Help";
             this.SyllabifyHelpButton.UseVisualStyleBackColor = true;
@@ -505,10 +516,10 @@
             this.panel1.Controls.Add(this.ReportRules);
             this.panel1.Controls.Add(this.ShowChanges);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 136);
+            this.panel1.Location = new System.Drawing.Point(0, 324);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(168, 257);
+            this.panel1.Size = new System.Drawing.Size(449, 614);
             this.panel1.TabIndex = 8;
             // 
             // RewriteOnOutput
@@ -516,9 +527,10 @@
             this.RewriteOnOutput.AutoSize = true;
             this.RewriteOnOutput.Checked = true;
             this.RewriteOnOutput.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.RewriteOnOutput.Location = new System.Drawing.Point(3, 50);
+            this.RewriteOnOutput.Location = new System.Drawing.Point(8, 119);
+            this.RewriteOnOutput.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.RewriteOnOutput.Name = "RewriteOnOutput";
-            this.RewriteOnOutput.Size = new System.Drawing.Size(110, 17);
+            this.RewriteOnOutput.Size = new System.Drawing.Size(275, 36);
             this.RewriteOnOutput.TabIndex = 2;
             this.RewriteOnOutput.Text = "Rewrite on output";
             this.RewriteOnOutput.UseVisualStyleBackColor = true;
@@ -526,9 +538,10 @@
             // ReportRules
             // 
             this.ReportRules.AutoSize = true;
-            this.ReportRules.Location = new System.Drawing.Point(4, 27);
+            this.ReportRules.Location = new System.Drawing.Point(11, 64);
+            this.ReportRules.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.ReportRules.Name = "ReportRules";
-            this.ReportRules.Size = new System.Drawing.Size(142, 17);
+            this.ReportRules.Size = new System.Drawing.Size(363, 36);
             this.ReportRules.TabIndex = 1;
             this.ReportRules.Text = "Report which rules apply";
             this.ReportRules.UseVisualStyleBackColor = true;
@@ -536,9 +549,10 @@
             // ShowChanges
             // 
             this.ShowChanges.AutoSize = true;
-            this.ShowChanges.Location = new System.Drawing.Point(4, 4);
+            this.ShowChanges.Location = new System.Drawing.Point(11, 10);
+            this.ShowChanges.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.ShowChanges.Name = "ShowChanges";
-            this.ShowChanges.Size = new System.Drawing.Size(129, 17);
+            this.ShowChanges.Size = new System.Drawing.Size(323, 36);
             this.ShowChanges.TabIndex = 0;
             this.ShowChanges.Text = "Show changed words";
             this.ShowChanges.UseVisualStyleBackColor = true;
@@ -559,24 +573,26 @@
         '\''};
             this.SoundChanges.AutoIndent = false;
             this.SoundChanges.AutoIndentCharsPatterns = "";
-            this.SoundChanges.AutoScrollMinSize = new System.Drawing.Size(0, 17);
+            this.SoundChanges.AutoScrollMinSize = new System.Drawing.Size(0, 39);
             this.SoundChanges.BackBrush = null;
             this.SoundChanges.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.SoundChanges.CharHeight = 17;
-            this.SoundChanges.CharWidth = 8;
+            this.SoundChanges.CharHeight = 39;
+            this.SoundChanges.CharWidth = 20;
             this.SoundChanges.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.SoundChanges.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.SoundChanges.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SoundChanges.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.SoundChanges.IsReplaceMode = false;
             this.SoundChanges.LineInterval = 3;
-            this.SoundChanges.Location = new System.Drawing.Point(181, 13);
+            this.SoundChanges.Location = new System.Drawing.Point(484, 31);
+            this.SoundChanges.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.SoundChanges.Name = "SoundChanges";
             this.SoundChanges.Paddings = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.SetRowSpan(this.SoundChanges, 2);
             this.SoundChanges.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.SoundChanges.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("SoundChanges.ServiceColors")));
             this.SoundChanges.ShowLineNumbers = false;
-            this.SoundChanges.Size = new System.Drawing.Size(162, 453);
+            this.SoundChanges.Size = new System.Drawing.Size(433, 1079);
             this.SoundChanges.TabIndex = 3;
             this.SoundChanges.WordWrap = true;
             this.SoundChanges.Zoom = 100;
@@ -587,10 +603,11 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.Output);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(685, 13);
+            this.panel2.Location = new System.Drawing.Point(1831, 31);
+            this.panel2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.panel2.Name = "panel2";
             this.tableLayoutPanel1.SetRowSpan(this.panel2, 2);
-            this.panel2.Size = new System.Drawing.Size(164, 453);
+            this.panel2.Size = new System.Drawing.Size(433, 1079);
             this.panel2.TabIndex = 6;
             // 
             // Output
@@ -599,8 +616,9 @@
             this.Output.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Output.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Output.Location = new System.Drawing.Point(0, 0);
+            this.Output.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Output.Name = "Output";
-            this.Output.Size = new System.Drawing.Size(162, 451);
+            this.Output.Size = new System.Drawing.Size(431, 1077);
             this.Output.TabIndex = 7;
             this.Output.Text = "";
             // 
@@ -616,13 +634,14 @@
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(862, 503);
+            this.ClientSize = new System.Drawing.Size(2299, 1199);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
             this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "Main";
             this.Text = "exSCA";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
