@@ -215,7 +215,6 @@
             this.Categories.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Categories.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.Categories.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Categories.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.Categories.IsReplaceMode = false;
             this.Categories.Location = new System.Drawing.Point(35, 31);
             this.Categories.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
@@ -254,6 +253,7 @@
             this.Rewrite.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Rewrite.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.Rewrite.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Rewrite.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.Rewrite.IsReplaceMode = false;
             this.Rewrite.Location = new System.Drawing.Point(35, 577);
             this.Rewrite.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
@@ -289,6 +289,7 @@
             this.AdvancedRewrite.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.AdvancedRewrite.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.AdvancedRewrite.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AdvancedRewrite.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.AdvancedRewrite.IsReplaceMode = false;
             this.AdvancedRewrite.Location = new System.Drawing.Point(3, 3);
             this.AdvancedRewrite.Name = "AdvancedRewrite";
@@ -323,6 +324,7 @@
             this.Input.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Input.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.Input.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Input.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.Input.IsReplaceMode = false;
             this.Input.Location = new System.Drawing.Point(933, 31);
             this.Input.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
@@ -482,6 +484,7 @@
             this.SyllabificationBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.SyllabificationBox.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.SyllabificationBox.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.SyllabificationBox.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.SyllabificationBox.IsReplaceMode = false;
             this.SyllabificationBox.Location = new System.Drawing.Point(8, 36);
             this.SyllabificationBox.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
@@ -581,7 +584,6 @@
             this.SoundChanges.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.SoundChanges.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.SoundChanges.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SoundChanges.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.SoundChanges.IsReplaceMode = false;
             this.SoundChanges.LineInterval = 3;
             this.SoundChanges.Location = new System.Drawing.Point(484, 31);
