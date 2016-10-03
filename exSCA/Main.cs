@@ -38,7 +38,7 @@ namespace exSCA
 
         private void Categories_TextChanged(object sender, TextChangedEventArgs e)
         {
-            e.ChangedRange.ClearStyle();
+            e.ChangedRange.ClearStyle(BeigeStyle);
             MatchCollection mc = Regex.Matches(Categories.Text, "^(.)=(.+)$", RegexOptions.Multiline);
             foreach (Match m in mc)
             {
@@ -59,7 +59,7 @@ namespace exSCA
 
         private void SyllabificationBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            e.ChangedRange.ClearStyle();
+            e.ChangedRange.ClearStyle(BeigeStyle);
             foreach (Range cat in Categories.GetRanges(@"^.(?==)", RegexOptions.Multiline))
             {
                 e.ChangedRange.SetStyle(BeigeStyle, cat.Text);
@@ -68,7 +68,7 @@ namespace exSCA
 
         private void SoundChanges_TextChanged(object sender, TextChangedEventArgs e)
         {
-            e.ChangedRange.ClearStyle();
+            e.ChangedRange.ClearStyle(BoldStyle, GreenStyle, BlueStyle, BeigeStyle);
             e.ChangedRange.SetStyle(BoldStyle, "/");
             e.ChangedRange.SetStyle(GreenStyle, @"\*.*$", RegexOptions.Multiline);
             e.ChangedRange.SetStyle(BlueStyle, @"\#|\(|\)|\[|\]|>|\\");
@@ -81,7 +81,7 @@ namespace exSCA
 
         private void SimpleRewrite_TextChanged(object sender, TextChangedEventArgs e)
         {
-            e.ChangedRange.ClearStyle();
+            e.ChangedRange.ClearStyle(BoldStyle);
             e.ChangedRange.SetStyle(BoldStyle, @"\|");
         }
 

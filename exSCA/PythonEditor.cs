@@ -40,7 +40,7 @@ namespace exSCA
         private void PythonTextbox_TextChanged(object sender, FastColoredTextBoxNS.TextChangedEventArgs e)
         {
             Range range = (sender as FastColoredTextBox).Range;
-            range?.ClearStyle();
+            range?.ClearStyle(BoldStyle, GreenStyle, BlueStyle);
             range?.SetStyle(GreenStyle, @"\#.*$", RegexOptions.Multiline);
             range?.SetStyle(BlueStyle, @"(\s|^)(False|None|True|and|as|assert|break|class|continue|def|del|elif|else|except|finally|for|from|global|if|import|in|is|lambda|nonlocal|not|or|pass|raise|return|try|while|with|yield)(\s|$)",
                 RegexOptions.Multiline);
