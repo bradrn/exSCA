@@ -127,9 +127,11 @@ namespace exSCA
                         change = split_change[0];
                     }
                     string _rulesUsed;
+                    bool didSyllabify = false;
                     if (options.Contains("x") && SyllabificationBox.Text != "")
                     {
                         changedWord = Syllabify(changedWord, SyllabificationBox.Text);
+                        didSyllabify = true;
                     }
 
                     if (change[0] != '-')
@@ -164,7 +166,7 @@ namespace exSCA
                         _rulesUsed = methodName;
                     }
                     if (_rulesUsed != "") rulesUsed.Add(_rulesUsed);
-                    changedWord = changedWord.Replace(".", "");
+                    if (didSyllabify) changedWord = changedWord.Replace(".", "");
                 }
                 if (RewriteOnOutput.Checked) changedWord = DoRewrite(changedWord, true);
                 bool changedFlag = curText[i] != changedWord && ShowChanges.Checked;
