@@ -35,7 +35,6 @@
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PythonTextbox = new FastColoredTextBoxNS.FastColoredTextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
@@ -45,12 +44,13 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.toolsToolStripMenuItem});
+            this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(740, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(16, 5, 0, 5);
+            this.menuStrip1.Size = new System.Drawing.Size(1973, 58);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -61,14 +61,14 @@
             this.saveToolStripMenuItem,
             this.saveAsToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(75, 48);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(415, 46);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -76,7 +76,7 @@
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(415, 46);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -85,14 +85,8 @@
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             this.saveAsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(415, 46);
             this.saveAsToolStripMenuItem.Text = "Save As";
-            // 
-            // toolsToolStripMenuItem
-            // 
-            this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
-            this.toolsToolStripMenuItem.Text = "Tools";
             // 
             // PythonTextbox
             // 
@@ -107,21 +101,21 @@
         '\"',
         '\'',
         '\''};
-            this.PythonTextbox.AutoScrollMinSize = new System.Drawing.Size(1379, 98);
+            this.PythonTextbox.AutoScrollMinSize = new System.Drawing.Size(3431, 252);
             this.PythonTextbox.BackBrush = null;
-            this.PythonTextbox.CharHeight = 14;
-            this.PythonTextbox.CharWidth = 8;
+            this.PythonTextbox.CharHeight = 36;
+            this.PythonTextbox.CharWidth = 20;
             this.PythonTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.PythonTextbox.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.PythonTextbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PythonTextbox.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.PythonTextbox.IsReplaceMode = false;
-            this.PythonTextbox.Location = new System.Drawing.Point(0, 24);
+            this.PythonTextbox.Location = new System.Drawing.Point(0, 58);
+            this.PythonTextbox.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.PythonTextbox.Name = "PythonTextbox";
             this.PythonTextbox.Paddings = new System.Windows.Forms.Padding(0);
             this.PythonTextbox.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.PythonTextbox.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("PythonTextbox.ServiceColors")));
-            this.PythonTextbox.Size = new System.Drawing.Size(740, 584);
+            this.PythonTextbox.Size = new System.Drawing.Size(1973, 1392);
             this.PythonTextbox.TabIndex = 1;
             this.PythonTextbox.Text = resources.GetString("PythonTextbox.Text");
             this.PythonTextbox.Zoom = 100;
@@ -139,12 +133,13 @@
             // 
             // PythonEditor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 608);
+            this.ClientSize = new System.Drawing.Size(1973, 1450);
             this.Controls.Add(this.PythonTextbox);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "PythonEditor";
             this.Text = "PythonEditor";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PythonEditor_FormClosing);
@@ -164,7 +159,6 @@
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
