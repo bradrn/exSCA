@@ -1,4 +1,6 @@
 # exSCA
+*__DEPRECATED - SEE https://github.com/bradrn/exSCA-cpp__*
+
 An extended version of Mark Rosenfelder's Sound Change Applier
 
 ### How to Download Executables
